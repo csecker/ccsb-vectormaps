@@ -1,0 +1,108 @@
+LOCUS       title    size bp      DNA     circular   date
+DEFINITION  
+ACCESSION   
+VERSION     
+SOURCE      
+  ORGANISM  
+COMMENT     Serial Cloner Genbank Format
+COMMENT     SerialCloner_Type=DNA
+COMMENT     SerialCloner_Comments=pDONR201 with insert_name
+COMMENT     SerialCloner_Ends=0,0,,0,
+FEATURES             Location/Qualifiers
+     misc_feature    insert_start..insert_end
+                     /label=insert_name
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=True
+                     /SerialCloner_Arrow=True
+     misc_recomb     complement(5..100)
+                     /label=AttL2
+                     /SerialCloner_Color=&hDDA0DD
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_recomb     2158..2253
+                     /label=AttL1
+                     /SerialCloner_Color=&hDDA0DD
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     rep_origin      1154..1782
+                     /label=ColE1 origin
+                     /SerialCloner_Color=&h4682B4
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     CDS             224..1030
+                     /label=KanR
+                     /SerialCloner_Color=&h8FBC8F
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     terminator      complement(2058..2101)
+                     /label=rrnB T1
+                     /SerialCloner_Color=&hFF8000
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     terminator      complement(1899..1926)
+                     /label=rrnB T2
+                     /SerialCloner_Color=&hFF8000
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    1778..1797
+                     /label=ASK-FN2
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     2126..2144
+                     /label=Donr-F
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     complement(103..121)
+                     /label=ENTR-R
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     complement(219..239)
+                     /label=SeqL-E
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    complement(125..144)
+                     /label=pDONR201 3PRIME
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    2112..2129
+                     /label=pDONR201 5PRIME
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    2126..2150
+                     /label=pDONR201 Forward
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    complement(125..148)
+                     /label=pDONR201 Reverse
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    1763..1782
+                     /label=ColE1-origin-fw
+                     /SerialCloner_Color=&hFF80C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+ORIGIN
