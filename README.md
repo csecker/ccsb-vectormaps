@@ -1,4 +1,4 @@
-# ccdb-vectormaps
+# ccsb-vectormaps
 Generating vector maps from human ORFeome V7.1 clones
 -----------------------------------------------------
 
