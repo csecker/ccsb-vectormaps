@@ -60,7 +60,7 @@ with open(CCSB_csv, 'rb') as csvfile:
             templatefile = os.path.join(script_dir, "template-pDONR201.gb")
             mapprefix = "pDONR201 GW.gb"
         
-        # Get sequence data of CCSB clone from humanORFeome 7.1
+        # Get sequence data and gene symbol of CCSB clone from humanORFeome 7.1 (http://horfdb.dfci.harvard.edu/hv7/)
         ccsbID = row[0].strip('CCSB_')
         url = 'http://horfdb.dfci.harvard.edu/hv7/index.php?page=getresults&by=detail&qury=' + ccsbID
         response = requests.get(url)
@@ -68,12 +68,8 @@ with open(CCSB_csv, 'rb') as csvfile:
         soup = BeautifulSoup(htmldata, features="html.parser")          
         try:
             orf = soup.findAll('font', {"class": "seq"})[0].text
-            #symbol = soup.findAll('table', {"class": "dtdata"})[0].text.strip('Symbol: ').strip()
             symbol = soup.findAll('table', {"class": "dtdata"})[0]
             symbol = re.search('Symbol:(.*)Description', symbol.text).group(1).strip()
-            #symbol = soup.findAll('td', {"colspan": "2"})
-            #for r in symbol:
-            #    print r
         except IndexError:
             pass
         
