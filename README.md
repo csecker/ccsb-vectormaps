@@ -2,7 +2,7 @@
 Generating vector maps from human ORFeome V7.1 clones
 -----------------------------------------------------
 
-Python script, which will, given a list of CCSB human ORFeome clones, pull the ORF sequence and generate annotated vector maps (*.gb) for:
+Python script, which will, given a list of CCSB human ORFeome clones, pull the ORF sequence from http://horfdb.dfci.harvard.edu/hv7/ and generate annotated vector maps (*.gb) for:
 
 Gateway® pDONR™ vectors
 
