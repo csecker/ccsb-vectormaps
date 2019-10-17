@@ -18,6 +18,11 @@ Python script, which will, given a list of CCSB human ORFeome clones, pull the O
     pcDNA3.1 GW-mCit-PA
     pcDNA3.1 GW-NL-myc
 
+## How to use it?
+
+Simply replace input.csv with a list of CCSB clones (each line one ID, e.g. CCSB_14339) and then run the script. 
+You can then choose (1-7) which vector maps to generate.
+
 ## Authors
 
 * Christopher Secker
