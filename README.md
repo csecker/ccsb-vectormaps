@@ -24,4 +24,4 @@ Python script, which will, given a list of CCSB human ORFeome clones, pull the O
     
 ## License
 
-This project is licensed under the GPLv3 license - see [LICENSE.md] file for details
+This project is licensed under the GPLv3 license - see [LICENSE] file for details
