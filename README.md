@@ -1,6 +1,5 @@
 # ccsb-vectormaps
 Generating vector maps from human ORFeome V7.1 clones
------------------------------------------------------
 
 ## What it does
 
@@ -21,8 +20,8 @@ Python script, which will, given a list of CCSB human ORFeome clones, pull the O
 
 ## Authors
 
-    Christopher Secker
+* **Christopher Secker
     
 ## License
 
-This project is licensed under the GPLv3 license - see LICENSE.md file for details
+This project is licensed under the GPLv3 license - see [LICENSE.md] file for details
