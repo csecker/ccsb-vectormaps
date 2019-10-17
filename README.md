@@ -20,7 +20,7 @@ Python script, which will, given a list of CCSB human ORFeome clones, pull the O
 
 ## Authors
 
-* **Christopher Secker
+* Christopher Secker
     
 ## License
 
