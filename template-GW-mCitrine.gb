@@ -1,0 +1,276 @@
+LOCUS       title    size bp      DNA     circular   date
+DEFINITION  
+ACCESSION   
+VERSION     
+SOURCE      
+  ORGANISM  
+COMMENT     Serial Cloner Genbank Format
+COMMENT     SerialCloner_Type=DNA
+COMMENT     SerialCloner_Comments=
+COMMENT     SerialCloner_Ends=0,0,,0,
+FEATURES             Location/Qualifiers
+     misc_feature    insert_start..insert_end
+                     /label=insert_name
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    complement(789..808)
+                     /label=pcDNA31-R
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     primer_bind     complement(3039..3059)
+                     /label=M13-rev
+                     /SerialCloner_Color=&h008B8B
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     primer_bind     6060..6079
+                     /label=T7
+                     /SerialCloner_Color=&h008B8B
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_binding    complement(3065..3087)
+                     /label=LacO
+                     /SerialCloner_Color=&h6495ED
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     CDS             complement(4204..4863)
+                     /label=AmpR
+                     /SerialCloner_Color=&h8FBC8F
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     CDS             1908..2699
+                     /label=Kan/neoR
+                     /SerialCloner_Color=&h8FBC8F
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     Promoter        complement(5103..5131)
+                     /label=Amp prom
+                     /SerialCloner_Color=&h4682B4
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     Promoter        complement(3092..3121)
+                     /label=lac
+                     /SerialCloner_Color=&h4682B4
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    1689..1766
+                     /label=SV40 ORI
+                     /SerialCloner_Color=&h4682B4
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     terminator      794..1021
+                     /label=bGH PA
+                     /SerialCloner_Color=&hFF8000
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    34..717
+                     /label=mCitrine
+                     /SerialCloner_Color=&hFA6A08
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    complement(3412..3431)
+                     /label=ASK-FN2
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    complement(3039..3057)
+                     /label=BluescriptR
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    5967..5985
+                     /label=CMV-F
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     complement(2878..2900)
+                     /label=EGFP-C1-R
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     5995..6014
+                     /label=EGFP-N1-F
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     complement(920..939)
+                     /label=F1-oriR
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     complement(3056..3076)
+                     /label=M13-24R
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     complement(3031..3054)
+                     /label=M13-24R-BLUE
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     complement(3042..3059)
+                     /label=M13-29R
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     complement(3132..3151)
+                     /label=M13rev2
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     complement(3104..3127)
+                     /label=MKSF
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    complement(789..808)
+                     /label=pcDNA3.1-R
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     5982..6006
+                     /label=pCEP4for
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     complement(3057..3076)
+                     /label=pQE-F
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     5150..5169
+                     /label=sCOS1F
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     2949..2969
+                     /label=SV40
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     1794..1811
+                     /label=SV40-Do
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     6060..6079
+                     /label=T7prom
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     complement(826..845)
+                     /label=UniV5his-R
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    complement(923..943)
+                     /label=AAVS1_A3
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    5433..6049
+                     /label=CMV immearly promoter
+                     /SerialCloner_Color=&h008080
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    6060..6079
+                     /label=T7_F
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    5923..5942
+                     /label=CMVF_pcDNA3
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    complement(3043..3059)
+                     /label=M13_R
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    complement(791..808)
+                     /label=bGH reverse
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    complement(3055..3078)
+                     /label=30nt_M13R
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    5175..5192
+                     /label=PQE30 forward
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    2964..2983
+                     /label=pCEP-Reverse
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    612..633
+                     /label=mCitrine_CF
+                     /SerialCloner_Color=&h1DA9C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    complement(143..164)
+                     /label=mCitrine_NR
+                     /SerialCloner_Color=&hA228C4
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    581..598
+                     /label=mCitrine_CF2
+                     /SerialCloner_Color=&h5728C4
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    complement(3427..3446)
+                     /label=ColE1-origin-fw
+                     /SerialCloner_Color=&hFF80C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+ORIGIN

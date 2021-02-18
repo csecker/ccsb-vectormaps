@@ -1,0 +1,99 @@
+LOCUS       title    size bp      DNA     circular   date
+DEFINITION  
+ACCESSION   
+VERSION     
+SOURCE      
+  ORGANISM  
+COMMENT     Serial Cloner Genbank Format
+COMMENT     SerialCloner_Type=DNA
+COMMENT     SerialCloner_Comments=
+COMMENT     SerialCloner_Ends=0,0,,0,
+FEATURES             Location/Qualifiers
+     source          1..7337
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     protein_bind    complement(2..26)
+                     /gene="mutant version of attB"
+                     /label=attB2
+                     /bound_moiety="BP Clonase(TM)"
+                     /note="recombination site for the Gateway(R) BP reaction"
+     misc_recomb     complement(5..11)
+                     /label=AttL2
+     misc_feature    insert_start..insert_end
+                     /label=insert_name
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    12..25
+                     /label=primer2 (CGTTCAGCTTTCTTGTACAAAGTGG)
+     misc_recomb     complement(12..25)
+                     /label=AttR2
+     misc_feature    28..30
+                     /label=STOP
+     misc_feature    36..62
+                     /label=I-CeuI homing endo
+     misc_recomb     complement(64..97)
+                     /label=LoxP
+     misc_feature    100..139
+                     /label=in vitro PolyA
+     misc_feature    141..339
+                     /label=SV40 PolyA
+     terminator      338..526
+                     /label=ADH1 terminator
+     misc_feature    551..710
+                     /label=SV40 ori
+     rep_origin      complement(929..1557)
+                     /direction=LEFT
+                     /label=ColE1 origin
+     CDS             complement(1709..2368)
+                     /label=AmpR
+     promoter        complement(2608..2636)
+                     /label=Amp prom
+     rep_origin      2701..4041
+                     /direction=RIGHT
+                     /label=2 micron origin
+     misc_recomb     complement(3661..3694)
+                     /label=FRT
+     misc_feature    4063..4096
+                     /label=site LoxN
+     gene            4525..5347
+                     /label=TRP1
+     rep_origin      complement(5400..5855)
+                     /direction=LEFT
+                     /label=M13 origin
+     rep_origin      5410..5850
+                     /direction=RIGHT
+                     /label=F1 ori
+     misc_feature    5855..6520
+                     /label=EnhancerCMV
+     misc_feature    6521..6598
+                     /label=Synthetic Yeast UAS-F-E-C
+     misc_feature    6627..6636
+                     /label=GC boc-II
+     misc_feature    6647..6658
+                     /label=CTF
+     misc_feature    6677..6685
+                     /label=GC box-I
+     misc_feature    6706..6713
+                     /label=TATA box
+     primer_bind     6747..6767
+                     /label=T7 promoteur
+     primer_bind     6748..6767
+                     /label=T7
+     misc_feature    6768..6959
+                     /label=CrPV-IGR-IRES
+     misc_feature    6960..7310
+                     /label=N2-Nanoluc + linker
+     protein_bind    7314..7337
+                     /gene="mutant version of attB"
+                     /label=attB1
+                     /bound_moiety="BP Clonase(TM)"
+                     /note="recombination site for the Gateway(R) BP reaction"
+     misc_feature    complement(7315..7321)
+                     /label=primer1 (TTCTCGTTCAGCTTTTTTGTACAAACTTG)
+     misc_recomb     7315..7321
+                     /label=AttR1
+     misc_recomb     7322..7335
+                     /label=AttL1
+ORIGIN

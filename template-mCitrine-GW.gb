@@ -6,7 +6,7 @@ SOURCE
   ORGANISM  
 COMMENT     Serial Cloner Genbank Format
 COMMENT     SerialCloner_Type=DNA
-COMMENT     SerialCloner_Comments=pcDNA3.1 PA-mCitrine-insert_name LuTHy N-terminal acceptor
+COMMENT     SerialCloner_Comments=pcDNA3.1 mCitrine-insert_name LuTHy-BRET N-terminal acceptor
 COMMENT     SerialCloner_Ends=0,0,,0,
 FEATURES             Location/Qualifiers
      misc_feature    insert_start..insert_end
@@ -14,12 +14,6 @@ FEATURES             Location/Qualifiers
                      /SerialCloner_Color=&h84A4C0
                      /SerialCloner_Show=True
                      /SerialCloner_Protect=False
-                     /SerialCloner_Arrow=True
-     misc_feature    4710..5326
-                     /label=CMV immearly promoter
-                     /SerialCloner_Color=&h4682B4
-                     /SerialCloner_Show=True
-                     /SerialCloner_Protect=True
                      /SerialCloner_Arrow=True
      misc_feature    complement(66..85)
                      /label=pcDNA31-R
@@ -81,15 +75,135 @@ FEATURES             Location/Qualifiers
                      /SerialCloner_Show=True
                      /SerialCloner_Protect=False
                      /SerialCloner_Arrow=True
-     misc_feature    5762..6445
+     misc_feature    5381..6064
                      /label=mCitrine
                      /SerialCloner_Color=&hFA6A08
                      /SerialCloner_Show=True
                      /SerialCloner_Protect=False
                      /SerialCloner_Arrow=True
-     misc_feature    5381..5743
-                     /label=Protein A-tag
-                     /SerialCloner_Color=&hF900FF
+     misc_feature    complement(2689..2708)
+                     /label=ASK-FN2
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    complement(2316..2334)
+                     /label=BluescriptR
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    5244..5262
+                     /label=CMV-F
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     complement(2155..2177)
+                     /label=EGFP-C1-R
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     5272..5291
+                     /label=EGFP-N1-F
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     complement(197..216)
+                     /label=F1-oriR
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     complement(2333..2353)
+                     /label=M13-24R
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     complement(2308..2331)
+                     /label=M13-24R-BLUE
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     complement(2319..2336)
+                     /label=M13-29R
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     complement(2409..2428)
+                     /label=M13rev2
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     complement(2381..2404)
+                     /label=MKSF
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    complement(66..85)
+                     /label=pcDNA3.1-R
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     5259..5283
+                     /label=pCEP4for
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     complement(2334..2353)
+                     /label=pQE-F
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     4427..4446
+                     /label=sCOS1F
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     2226..2246
+                     /label=SV40
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     1071..1088
+                     /label=SV40-Do
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     5337..5356
+                     /label=T7prom
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+                     complement(103..122)
+                     /label=UniV5his-R
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    complement(200..220)
+                     /label=AAVS1_A3
+                     /SerialCloner_Color=&h84A4C0
+                     /SerialCloner_Show=True
+                     /SerialCloner_Protect=False
+                     /SerialCloner_Arrow=True
+     misc_feature    4710..5326
+                     /label=CMV immearly promoter
+                     /SerialCloner_Color=&h008080
                      /SerialCloner_Show=True
                      /SerialCloner_Protect=False
                      /SerialCloner_Arrow=True
@@ -135,19 +249,19 @@ FEATURES             Location/Qualifiers
                      /SerialCloner_Show=True
                      /SerialCloner_Protect=False
                      /SerialCloner_Arrow=True
-     misc_feature    6340..6361
+     misc_feature    5959..5980
                      /label=mCitrine_CF
                      /SerialCloner_Color=&h1DA9C0
                      /SerialCloner_Show=True
                      /SerialCloner_Protect=False
                      /SerialCloner_Arrow=True
-     misc_feature    complement(5871..5892)
+     misc_feature    complement(5490..5511)
                      /label=mCitrine_NR
                      /SerialCloner_Color=&hA228C4
                      /SerialCloner_Show=True
                      /SerialCloner_Protect=False
                      /SerialCloner_Arrow=True
-     misc_feature    6309..6326
+     misc_feature    5928..5945
                      /label=mCitrine_CF2
                      /SerialCloner_Color=&h5728C4
                      /SerialCloner_Show=True
@@ -156,12 +270,6 @@ FEATURES             Location/Qualifiers
      misc_feature    complement(2704..2723)
                      /label=ColE1-origin-fw
                      /SerialCloner_Color=&hFF80C0
-                     /SerialCloner_Show=True
-                     /SerialCloner_Protect=False
-                     /SerialCloner_Arrow=True
-     misc_feature    5750..5761
-                     /label=GSGS-Linker
-                     /SerialCloner_Color=&h008000
                      /SerialCloner_Show=True
                      /SerialCloner_Protect=False
                      /SerialCloner_Arrow=True
